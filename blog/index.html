@@ -6,6 +6,8 @@ title: Case Studies
 	<ul class="posts">
 
 	  {% for post in site.posts %}
+	 	<div class="case-study">	
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+		</div>
+	 {% endfor %}
 	</ul>
