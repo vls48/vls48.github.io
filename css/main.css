@@ -43,5 +43,8 @@ ul.posts li {
 }
 
 .case-study{
-
+    background-color: #ededed;
+    height: 130px;
+    width: 30%;
+    border-radius: 10px;
 }
