@@ -52,6 +52,10 @@ ul.posts li {
     padding: 15px;
 }
 
+.post-containter:hover{
+    filter: brightness(150%);
+}
+
 .case-study-bg{
     background-color: #f4f4f4;
     background-image: url("../img/ink.jpg");
