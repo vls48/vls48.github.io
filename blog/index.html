@@ -6,6 +6,7 @@ title: Case Studies
 	<ul class="posts">
 
 	  {% for post in site.posts %}
+	   <div class="post-container">
 		<div class="case-study-bg">
 	 	<div class="case-study">
 			<div class="details-cont">
@@ -15,5 +16,6 @@ title: Case Studies
 		</div>
 		</div>
 		<span class="date-span">{{ post.date | date_to_string }}</span>
+		</div>
 	 {% endfor %}
 	</ul>
