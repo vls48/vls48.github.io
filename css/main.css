@@ -57,7 +57,7 @@ ul.posts li {
 
 .case-study-bg{
     background-color: #f4f4f4;
-    background-image: url("img/ink.jpg");
+    background-image: url("../img/ink.jpg");
     height: 150px;
     width: 100%;
     border-radius: 10px;
