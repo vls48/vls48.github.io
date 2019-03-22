@@ -69,3 +69,10 @@ ul.posts li {
     position: absolute;
     bottom: 20px;
 }
+
+.date-span{
+    text-align: center;
+    font-size: .8rem;
+    color: #afabab;
+    font-family: monospace;
+}
