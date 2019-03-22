@@ -50,6 +50,7 @@ ul.posts li {
     width: 90%;
     border-radius: 10px;
     margin: auto;
+    position: relative;
 }
 
 .case-study-bg{
@@ -61,4 +62,10 @@ ul.posts li {
 
 .details-cont{
     width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 20px;
 }
