@@ -7,9 +7,13 @@ title: Case Studies
 
 	  {% for post in site.posts %}
 		<div class="case-study-bg">
-	 	<div class="case-study">	
-	    <li><span class="details-cont">{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	 	<div class="case-study">
+			<div class="details-cont">
+	   		 <li> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			<li> <a href="" title="mobile">Mobile</a></li>
+			</div>
 		</div>
 		</div>
+		<span>{{ post.date | date_to_string }}</span>
 	 {% endfor %}
 	</ul>
