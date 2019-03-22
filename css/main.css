@@ -36,6 +36,8 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    display: grid;
+    grid-auto-flow: row;
 }
 
 ul.posts li {
@@ -45,14 +47,15 @@ ul.posts li {
 .case-study{
     background-color: #ededed;
     height: 130px;
-    width: 30%;
+    width: 90%;
     border-radius: 10px;
+    margin: auto;
 }
 
 .case-study-bg{
     background-color: #f4f4f4;
     height: 150px;
-    width: 30%;
+    width: 100%;
     border-radius: 10px;
 }
 
