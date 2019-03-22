@@ -23,6 +23,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: darksalmon;
 }
 p {
     font-size: 1.5em;
@@ -48,17 +49,19 @@ ul.posts li {
 
 .case-study{
     background-color: #ededed;
-    height: 130px;
-    width: 90%;
+    height: 175px;
+    width: 93%;
     border-radius: 10px;
     margin: auto;
     position: relative;
+    top: 7%;
 }
 
 .case-study-bg{
     background-color: #f4f4f4;
     background-image: url("../img/ink.jpg");
-    height: 150px;
+    background-blend-mode: color-burn;
+    height: 200px;
     width: 100%;
     border-radius: 10px;
 }
