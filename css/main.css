@@ -48,3 +48,14 @@ ul.posts li {
     width: 30%;
     border-radius: 10px;
 }
+
+.case-study-bg{
+    background-color: #f4f4f4;
+    height: 150px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.details-cont{
+    width: 100%;
+}
