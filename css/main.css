@@ -47,14 +47,8 @@ ul.posts li {
     list-style: none;
 }
 
-.case-study{
-    background-color: white;
-    height: 175px;
-    width: 93%;
-    border-radius: 10px;
-    margin: auto;
-    position: relative;
-    top: 7%;
+.post-container{
+    padding: 15px;
 }
 
 .case-study-bg{
@@ -64,6 +58,16 @@ ul.posts li {
     height: 200px;
     width: 100%;
     border-radius: 10px;
+}
+
+.case-study{
+    background-color: white;
+    height: 175px;
+    width: 93%;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: 7%;
 }
 
 .details-cont{
