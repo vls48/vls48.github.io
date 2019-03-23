@@ -63,7 +63,7 @@ ul.posts li {
     background-color: turquoise;
     background-image: url("../img/ink.jpg");
     background-blend-mode: multiply;
-    height: 200px;
+    height: 220px;
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.03), 0 1px 6px 0 rgba(0, 0, 0, 0.05);
@@ -73,7 +73,7 @@ ul.posts li {
     background-color: white;
     height: 175px;
     width: 93%;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: auto;
     position: relative;
     top: 7%;
