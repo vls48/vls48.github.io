@@ -48,7 +48,7 @@ ul.posts {
     font-size: 1.5em;
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 
 ul.posts li {
@@ -99,3 +99,19 @@ ul.posts li {
     font-family: monospace;
     padding-top: 10px;
 }
+
+
+
+
+@media only screen and (max-width: 600px){
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto;
+    }
+    
+}
+
