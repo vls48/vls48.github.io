@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%;
-    background-color: #b71271;
+    background-color: mediumspringgreen;
     background-image: url(../img/ink.jpg);
     background-blend-mode: darken;
 }
@@ -84,18 +84,21 @@ ul.posts li {
 
 .details-cont{
     width: 100%;
-    background-color: aliceblue;
     text-align: center;
-    font-size: 1rem;
+    font-size: .9rem;
     font-family: sans-serif;
     position: absolute;
     bottom: 20px;
 }
 
+.details-cont a {
+    color: white;
+}
+
 .date-cont{
     text-align: center;
     font-size: .8rem;
-    color: #afabab;
+    color: #f3f3f3;
     font-family: monospace;
     padding-top: 10px;
 }
