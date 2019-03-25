@@ -38,8 +38,10 @@ p {
     color: #333;
 }
 
-img{
-    width: 100%
+.thumbnail img{
+    width: 122%;
+    margin-left: -40px;
+    margin-top: -26px;
 }
 
 footer {
@@ -77,13 +79,12 @@ ul.posts li {
 }
 
 .case-study{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.7);
     height: 200px;
     width: 94%;
-    border-radius: 6px;
+    border-radius: 5px;
     margin: auto;
     position: relative;
-    overflow: hidden;
     top: 5%;
 }
 
