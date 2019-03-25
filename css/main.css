@@ -41,7 +41,7 @@ p {
     margin-left: -40px;
     margin-top: -20px;
     margin-bottom: -6px;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .thumbnail:hover{
