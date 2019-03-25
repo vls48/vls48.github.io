@@ -38,8 +38,9 @@ p {
 
 .thumbnail{
     width: 125%;
-    margin-left: -35px;
+    margin-left: -40px;
     margin-top: -20px;
+    margin-bottom: -6px;
 }
 
 footer {
