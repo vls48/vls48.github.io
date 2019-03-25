@@ -85,11 +85,12 @@ ul.posts li {
 
 .details-cont{
     width: 100%;
-    text-align: center;
+    text-align: right;
     font-size: .9rem;
     font-family: sans-serif;
     position: absolute;
     bottom: 20px;
+    right: 10px;
 }
 
 .details-cont a {
