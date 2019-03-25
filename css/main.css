@@ -93,6 +93,12 @@ ul.posts li {
     right: 10px;
 }
 
+.detail-cont .post-type{
+    color: white;
+    font-size: .5rem;
+    font-style: oblique;
+}
+
 .details-cont a {
     color: white;
 }
