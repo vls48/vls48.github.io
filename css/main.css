@@ -78,8 +78,8 @@ ul.posts li {
 
 .case-study{
     background-image: linear-gradient(to top, rgba(219, 112, 146, 0.58), #ffff0000);
-    width: 94%;
     margin: auto;
+    border-radius: 10px;
     position: relative;
 }
 
