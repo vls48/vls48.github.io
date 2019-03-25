@@ -132,4 +132,11 @@ ul.posts {
     grid-template-columns: auto auto auto;
     }
     
+ .thumbnail {
+    width: 115%;
+    margin-left: -20px;
+    margin-top: -10px;
+    margin-bottom: -6px;
+}
+    
 }
