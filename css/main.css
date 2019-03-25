@@ -93,7 +93,7 @@ ul.posts li {
     right: 10px;
 }
 
-.post-type{
+li.post-type{
     color: white;
     font-size: .5rem;
     font-style: oblique;
