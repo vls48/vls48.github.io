@@ -41,6 +41,11 @@ p {
     margin-left: -40px;
     margin-top: -20px;
     margin-bottom: -6px;
+    transition: transform 2s;
+}
+
+.thumbnail:hover{
+    transform: translateY(-15px); 
 }
 
 footer {
