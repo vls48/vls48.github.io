@@ -38,6 +38,10 @@ p {
     color: #333;
 }
 
+img{
+    width: 100%
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -79,6 +83,7 @@ ul.posts li {
     border-radius: 6px;
     margin: auto;
     position: relative;
+    overflow: hidden;
     top: 5%;
 }
 
