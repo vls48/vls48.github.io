@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-416.000000, -266.000000)">
+            <g id="Group" transform="translate(418.000000, 268.000000)">
+                <circle id="Oval" stroke="#3F83A3" stroke-width="4" cx="18" cy="18" r="18"></circle>
+                <text id="$" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" letter-spacing="-0.983871102" fill="#3F83A3">
+                    <tspan x="9.5" y="27">$</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

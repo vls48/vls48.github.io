@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>ShakeSnack</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css-add2home.css">
+    <link rel="stylesheet" href="master.css">
+    
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+    <script src="jquery-3.2.1.slim.min.js"></script>
+    <!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>     -->
+    
+
+    <!-- ICONS -->
+	<!-- iPad retina icon -->
+	<link href="img/icon-152x152.png" sizes="152x152" rel="apple-touch-icon">
+	<!-- iPads retina icon (iOS<7) -->
+	<link href="img/icon-144x144.png" sizes="144x144" rel="apple-touch-icon">
+	<!-- iPad non retina icon -->
+	<link href="img/icon-76x76.png" sizes="76x76" rel="apple-touch-icon">
+	<!-- iPad non retina icon (iOS<7) -->
+	<link href="img/icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+	
+	<!-- iPhone 6+ icon -->
+	<link href="img/icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
+	<!-- iPhone retina icon (iOS<7) -->
+	<link href="img/icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+	<!-- iPhone non retina icon -->
+	<link href="img/icon-57x57.png" sizes="57x57" rel="apple-touch-icon">
+
+</head>
+<body onload="pageSetUp(); readData();">
+    <div data-role="page" id="article1">
+        <div class="turn text">
+            <p>Please turn to portrait mode for full experience</p>
+            <img class="flip" src="img/flip.png" alt="flip phone">
+        </div> 
+    <div class="content">
+    
+        <div class="title" id="title">
+            <p> </p>
+        </div>
+    
+        <div class="bottom">
+       <div class="icon">
+           <img id='image' src="" alt="">
+    
+       </div>
+    
+       <div class="settings">
+           <div class="display">
+    
+            <img src="img/money.svg" alt="dolla"> 
+            <img class="active" id="travel" src="img/walk.svg" alt="walk">
+    
+           </div>
+    
+       </div>
+    
+       <div class="inst">
+            <input type="button" value="generate" onclick="generate();"> 
+            <p class="instruct"> tap button or shake device to generate</p>
+            <p class="instruct"> scroll down to filter</p>
+       </div>
+    
+    </div>
+    </div>
+    
+      </div>
+    
+      <div data-role="page" id="article2">
+        <div class="turn text">
+            <p>Please turn to portrait mode for full experience</p>
+            <img class="flip" src="img/flip.png" alt="flip phone">
+        </div>
+    
+    <div class="content2">
+        
+        <div class="title">
+            <p>filter</p>
+        </div>
+    
+        <div class="bottom2 text">
+            
+            <div class="display2">
+                <p>price</p>
+                <div class="dol" id="dol1">
+                <svg id="d1" width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Artboard" transform="translate(-416.000000, -266.000000)">
+                            <g id="Group" transform="translate(418.000000, 268.000000)">
+                                <circle class="a active2" id="Oval" stroke="#3F83A3" stroke-width="4" cx="18" cy="18" r="18"></circle>
+                                <text class="a active" id="m" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" letter-spacing="-0.983871102" fill="#3F83A3">
+                                    <tspan x="9.5" y="27">$</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                </div>
+    
+                <div class="dol" id="dol2">
+                <svg id="d2" width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Artboard2" transform="translate(-416.000000, -266.000000)">
+                            <g id="d2" transform="translate(418.000000, 268.000000)">
+                                <circle  class="a" id="Oval2" stroke="#3F83A3" stroke-width="4" cx="18" cy="18" r="18"></circle>
+                                <text  class="a" id="m2" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" letter-spacing="-0.983871102" fill="#3F83A3">
+                                    <tspan x="9.5" y="27">$</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                </div>
+    
+                <div class="dol" id="dol3">
+                <svg id="d3" width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Artboard3" transform="translate(-416.000000, -266.000000)">
+                            <g id="d3" transform="translate(418.000000, 268.000000)">
+                                <circle id="Oval3" class="a" stroke="#3F83A3" stroke-width="4" cx="18" cy="18" r="18"></circle>
+                                <text id="m3" class="a" font-family="Futura-Bold, Futura" font-size="25" font-weight="bold" letter-spacing="-0.983871102" fill="#3F83A3">
+                                    <tspan x="9.5" y="27">$</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            </div>
+    
+            <div class="distance2">
+                <p>distance</p>
+                <svg class="transport active" id="walk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" fill="#3F83A3" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                    <g><g id="walkc"><circle cx="51.58" cy="10.115" r="9.115"/><path d="M79.096,92.863L79.096,92.863v-0.002c-0.1-0.527-8.504-23.919-8.504-23.919L57.896,56.014c0,0,0-20.281,0-26.242    s-10.813-9.854-12.078-8.98C44.988,21.365,25.97,33.169,25.97,33.169l-2.017,20.082c-0.025,0.185-0.042,0.37-0.042,0.561    c0,2.266,1.837,4.103,4.103,4.103s4.103-1.837,4.103-4.103l1.697-15.293l9.45-5.503v22.922l17.341,16.721l8.85,22.927l0,0    c0.723,1.893,2.551,3.239,4.697,3.239c2.779,0,5.033-2.254,5.033-5.031C79.186,93.475,79.186,93.334,79.096,92.863z"/><path d="M22.017,89.604c-0.749,0.879-1.203,2.016-1.203,3.26c0,2.778,2.254,5.032,5.032,5.032c1.776,0,3.333-0.922,4.229-2.312    l15.391-19.91L50.2,65.208l-7.783-7.294l-5.753,11.739L22.017,89.604z"/>
+                        <path d="M60.141,40.145c0,0-0.154,11.303,0,11.07c0.135-0.203,5.691,4.408,7.121,5.6c0.105,0.099,0.215,0.19,0.33,0.277    c0.002,0,0.004,0.002,0.004,0.002l0,0c0.684,0.514,1.533,0.82,2.455,0.82c2.264,0,4.102-1.837,4.102-4.103    c0-1.527-0.83-2.469-2.076-3.563L60.141,40.145z"/></g></g>
+                </svg>
+    
+                <svg class="transport" id="subway" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" fill="#3F83A3" viewBox="233.5 162.6 100 100" enable-background="new 233.5 162.6 100 100" xml:space="preserve">
+                    <g><path d="M304.5,165.1h-42c-9.1,0-16.5,7.4-16.5,16.5v47.6c0,9.1,7.4,16.5,16.5,16.5h0.3h1.7l2.9-4.9c0.7-1.2,2-1.9,3.3-1.9h25.2   c1.3,0,2.5,0.7,3.2,1.7l3.3,5h2c9.1,0,16.5-7.4,16.5-16.5v-47.6C320.9,172.5,313.6,165.1,304.5,165.1z M273.9,172.4   c0-1.4,1.2-2.6,2.6-2.6h14c1.4,0,2.6,1.2,2.6,2.6v0.4c0,1.4-1.2,2.6-2.6,2.6h-14c-1.4,0-2.6-1.2-2.6-2.6V172.4z M259.9,226.9   c-3,0-5.4-2.4-5.4-5.4s2.4-5.4,5.4-5.4s5.4,2.4,5.4,5.4S262.9,226.9,259.9,226.9z M307,226.9c-3,0-5.4-2.4-5.4-5.4s2.4-5.4,5.4-5.4   c3,0,5.4,2.4,5.4,5.4S310,226.9,307,226.9z M312.4,184.5v18.8v0c0,2.8-2.3,5.1-5.1,5.1h-47.8c-2.8,0-5.1-2.3-5.1-5.1v0v-18.8v0   c0-2.8,2.3-5.1,5.1-5.1h47.8C310.2,179.3,312.4,181.6,312.4,184.5L312.4,184.5z"/>
+                        <path d="M294.4,242.6h-21.8c-0.7,0-1.4,0.4-1.8,1l-10.1,16.5h7.6l2.3-3.9h25.8l2.3,3.9h7.6l-10.1-16.5   C295.8,242.9,295.1,242.6,294.4,242.6z M274.5,249.7l2.1-3.6h13.7l2.1,3.6H274.5z"/></g>
+                </svg>
+    
+                <svg class="transport" id="uber" width="50px" height="50px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="1" fill-rule="evenodd" transform="translate(-2.000000, -2.000000)" fill="#3F83A3">
+                    <path d="M20.9475649,39.9785209 C30.7123505,39.4615339 40,31.4767394 40,20.9892604 C40,10.5017815 31.4699342,2 20.9475649,2 C11.118377,2 3.0276452,9.41853457 2.0043163,18.9443267 C1.89512979,18.9903909 12.925487,18.9443267 15.9337662,18.9903909 C15.9337662,18.9903909 15.9337662,16.491804 15.9337662,15.9920866 C18.4406655,15.9920866 24.457224,15.9920866 25.9613636,15.9920866 C25.9613636,17.4912388 25.9613636,25.4867169 25.9613636,25.9864342 C25.4599837,25.9864342 16.4351461,25.9864342 15.9337662,25.9864342 C15.9337662,25.9864342 15.9337662,23.4878473 15.9337662,23.0010914 C12.4241071,22.98813 1.89512979,22.98813 2.00078951,23.0010914 C3.00890838,32.5427941 11.7127453,40.4674494 20.9475649,39.9785209 Z" id="Oval"></path>
+                </svg>				
+            </div>
+    
+        </div>
+    </div>
+    
+      </div>
+
+
+        <script src="js-refresh-manifest.js" type="text/javascript"></script>
+        <script type="text/javascript">
+          //	Customize configuration variable BEFORE loading addToHome.js file
+          var addToHomeConfig = {
+            touchIcon: true
+          };
+      
+        </script>
+     
+         <!-- <script src="pages.js"></script> -->
+         <script src="js-add2home.js"></script>
+         <script src="main.js"></script>
+         
+         
+        
+        
+</body>
+</html>

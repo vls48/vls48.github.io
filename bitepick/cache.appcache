@@ -1,0 +1,61 @@
+CACHE MANIFEST
+# version - 42.1
+
+CACHE:
+
+# CSS
+css-add2home.css
+master.css
+normalize.css
+
+fonts/Montserrat-Regular.ttf
+fonts/Roboto-Bold.ttf
+
+# IMAGES
+img/bg.svg
+img/bg2.svg
+img/blue.jpg
+img/cash.svg
+img/chik.png
+img/chip.png
+img/five.jpg
+img/flip.png
+img/halal.jpg
+img/han.jpg
+img/honey.jpg
+img/icon-57x57.png
+img/icon-72x72.png
+img/icon-76x76.png
+img/icon-114x114.png
+img/icon-144x144.png
+img/icon-152x152.png
+img/icon-180x180.png
+img/landmark.jpg
+img/mac.png
+img/marathon.png
+img/mc.jpg
+img/money.svg
+img/pod.jpg
+img/ramen.png
+img/rex.jpg
+img/sabrina.jpg
+img/shake.png
+img/snap.png
+img/sub.jpg
+img/subway.svg
+img/taco.jpg
+img/uber.svg
+img/walk.svg
+img/wendy.jpg
+
+# HTML FILES
+index.html
+
+# JAVASCRIPT - SPECIFIC ORDER
+js-refresh-manifest.js
+js-add2home.js
+main.js
+jquery-3.2.1.slim.min.js
+
+## Any resources not listed above will require the user to be online.
+NETWORK:
