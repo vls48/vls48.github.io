@@ -31,7 +31,7 @@ body{
 
 .content2{
     background-image: url('img/bg.svg');
-    background-repeat: repeat-x;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ body{
     height: 85px;
 }
 
-.image{
+#image{
     max-width: 215px;
 }
 
@@ -58,10 +58,10 @@ body{
     background-color: rgb(255, 255, 255);
     box-shadow: 0 10px 50px rgba(105, 105, 105, 0.178);
 
-    /* background-image: url('img/chik.png'); */
+    /*background-image: url('img/chik.png'); */
     background-size: 215px 215px;
-    /* background-repeat: no-repeat;
-    background-position: center; */
+     background-repeat: no-repeat;
+    background-position: center; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,28 +76,27 @@ body{
     display: inline-block;
 }
 
-#dol1::before{
+#dol1::after{
     content: "$5";
-    position: relative;
-    top: 30px;
-    left: 30px;
+    color: #3F83A3;
+
+
 }
 
-#dol2::before{
+#dol2::after{
     content: "$10";
-    position: relative;
-    top: 30px;
-    left: 35px;
+    color: #3F83A3;
+
 }
-#dol3::before{
+#dol3::after{
     content: "$20+";
-    position: relative;
-    top: 30px;
-    left: 40px;
+    color: #3F83A3;
 }
 
 .display{
-    padding: 30px;
+    text-align: left;
+    margin: 25px 0px;
+    width: 100%;
 }
 
 .display img{
@@ -131,7 +130,8 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .bottom2 img{
@@ -141,9 +141,16 @@ body{
 }
 
 .display2, .distance2{
-height: 195px;
-text-align: center;
-padding-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+.cash{
+    width: 100%;
+}
+
+.a{
+    transition: all 0.3s ease-in-out;
 }
 
 svg{
@@ -154,6 +161,7 @@ svg{
 .distance2 p, .display2 p{
     text-align: left;
     padding-left: 50px;
+    width: 100%;
 }
 
 .bottom{
@@ -164,6 +172,9 @@ svg{
     flex-direction: column;
 
 }
+.icon-cont{
+    width:100%;
+}
 
 .text{
     font-size: 1.25rem; 
@@ -172,15 +183,17 @@ svg{
 }
 
 .transport{
-   width: 30%;
+   width: 32%;
 }
 
 .active{
     fill: white;
+    transition: fill 0.3s ease-in-out;
 }
 
 .active2{
     stroke: white;
+    transition: stroke 0.3s ease-in-out;
 }
 
 .turn{

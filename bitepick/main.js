@@ -43,7 +43,7 @@ function motion(e) {
 
         if(moveCounter > 2) {
             console.log('SHAKE!!!');
-            alert('SHOOKETH');
+            alert('recommending food spot...');
             generate();
             moveCounter = 0;
         }
@@ -258,12 +258,12 @@ $('.transport').click(function() {
     case $("#subway").hasClass('active'):
     distanceVar = 2
     localStorage.vls_Distance= distanceVar;
-    outputDis.src= "img/subway.svg";
+    outputDis.src= "img/subwaywhite.svg";
       break;
     case $("#uber").hasClass('active'):
     distanceVar = 3
     localStorage.vls_Distance= distanceVar;
-    outputDis.src= "img/uber.svg";
+    outputDis.src= "img/uberwhite.svg";
       break;
     default :
     distanceVar = 0
@@ -334,13 +334,13 @@ switch(distanceVar){
   case '2':
     $("#subway").addClass('active')
     $("#subway").siblings().removeClass('active');
-    outputDis.src= "img/subway.svg";
+    outputDis.src= "img/subwaywhite.svg";
     break;
 
   case '3':
     $("#uber").addClass('active')
     $("#uber").siblings().removeClass('active');
-    outputDis.src= "img/uber.svg";
+    outputDis.src= "img/uberwhite.svg";
     break;
 
   default:
