@@ -27,13 +27,12 @@ h1 {
     font-size: 5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: white;
-    text-shadow: -3px 3px palevioletred;
     padding: 3px 0px 3px 15px;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #FFF;
 }
 
 .thumbnail{
